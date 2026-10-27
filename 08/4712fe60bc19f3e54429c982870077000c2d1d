@@ -1,0 +1,46 @@
+README.md
+  s_a80ae6287a2266::t_9be9ded2039d65 15-25
+  s_a80ae6287a2266::t_9fac7a86f818e8 1-14,26-105
+PUBLISHING.md
+  s_a80ae6287a2266::t_30f2030219cb63 16
+  s_a80ae6287a2266::t_9be9ded2039d65 5-11,23-24
+  s_a80ae6287a2266::t_3dc6144ead9a5c 1-4,12-15,17-22,25-50
+.gitattributes
+  s_a80ae6287a2266::t_71434febd76c6d 1
+.github/workflows/validate.yml
+  s_a80ae6287a2266::t_360ecf5a62a1a4 1-20
+.gitignore
+  s_a80ae6287a2266::t_cee2ce5d206d65 1-11
+LICENSE
+  s_a80ae6287a2266::t_8518c4956471cb 1-21
+package-lock.json
+  s_a80ae6287a2266::t_ad7b2d82d40a1e 1-127
+package.json
+  s_a80ae6287a2266::t_0a13b96914bc27 1-17
+scripts/validate.mjs
+  s_a80ae6287a2266::t_6713bc6443b8bb 1-50
+skills/security-audit/LICENSE
+  s_a80ae6287a2266::t_7ed32e8904eed8 1-21
+skills/security-audit/SKILL.md
+  s_a80ae6287a2266::t_eba191be0adaa4 1-82
+skills/security-audit/references/review-method.md
+  s_a80ae6287a2266::t_1d0db81c015d32 1-46
+skills/security-audit/references/state-contract.md
+  s_a80ae6287a2266::t_3a9fe8a7653893 1-134
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "084712fe60bc19f3e54429c982870077000c2d1d",
+  "prompts": {},
+  "sessions": {
+    "s_a80ae6287a2266": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17836-84e7-7550-afdb-d1e0ef30a44f",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Fatih Telis <fatih.telis@gmail.com>"
+    }
+  }
+}
