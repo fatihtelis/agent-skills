@@ -1,0 +1,19 @@
+README.md
+  s_a80ae6287a2266::t_bc8bea29e684a8 3-4,13-15,19,32-38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a69fde69e93e80d1295446db8113366b9ece4362",
+  "prompts": {},
+  "sessions": {
+    "s_a80ae6287a2266": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17836-84e7-7550-afdb-d1e0ef30a44f",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "Fatih Telis <fatih.telis@gmail.com>"
+    }
+  }
+}
