@@ -1,0 +1,17 @@
+{
+  "name": "agent-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portable agent skills for persistent, cross-repository security audits",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22.20.0" },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "skills:list": "skills add . --list"
+  },
+  "devDependencies": {
+    "skills": "1.7.4",
+    "yaml": "2.8.3"
+  }
+}

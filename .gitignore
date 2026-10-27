@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+!.env.example
+# Audit output from reviewing this repository, not the distributable skill.
+/security-audit/
+# Local installation smoke tests must not become published skills.
+/.agents/
+/.claude/
+/skills-lock.json
