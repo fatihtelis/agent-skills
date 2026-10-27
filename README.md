@@ -1,5 +1,7 @@
 # Agent Skills
 
+[![skills.sh](https://skills.sh/b/fatihtelis/agent-skills)](https://skills.sh/fatihtelis/agent-skills)
+
 Portable workflows for coding agents, following the [Agent Skills standard](https://agentskills.io/specification). Install individual skills through the [Vercel Skills CLI](https://github.com/vercel-labs/skills).
 
 ## Available skills
@@ -8,11 +10,13 @@ Portable workflows for coding agents, following the [Agent Skills standard](http
 | --- | --- |
 | [security-audit](skills/security-audit/SKILL.md) | Review one or multiple repositories, connect security-sensitive flows across services, and resume work across sessions through durable checkpoints. |
 
-## Install
+## Install from skills.sh
+
+Browse [security-audit on skills.sh](https://skills.sh/fatihtelis/agent-skills/security-audit) for the skill instructions, installation details, and available security audit results. The catalog links to this GitHub repository; the Skills CLI installs the skill and its reference files from here.
 
 The current Skills CLI requires **Node.js 22.20 or later**. The skill itself has no Node.js or Python runtime dependency: it consists of instructions and reference files.
 
-Install from the public GitHub repository:
+Run this command in the project where you want to use the skill:
 
 ```bash
 npx skills add fatihtelis/agent-skills --skill security-audit
@@ -25,7 +29,13 @@ npx skills add fatihtelis/agent-skills --skill security-audit -a codex
 npx skills add fatihtelis/agent-skills --skill security-audit -a claude-code
 ```
 
-Add `-g` for installation across projects. From a local checkout, you can preview discovery without installing:
+To make the skill available across projects:
+
+```bash
+npx skills add fatihtelis/agent-skills --skill security-audit -g
+```
+
+From a local checkout, you can preview discovery without installing:
 
 ```bash
 npx skills add . --list
